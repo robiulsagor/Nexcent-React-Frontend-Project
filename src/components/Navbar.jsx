@@ -73,7 +73,7 @@ const Navbar = () => {
                 </div>
 
                 {/* nav items for mobile devices */}
-                <div className={`${isMenuOpen ? "block fixed top-0 left-0 right-0 h-auto px-5 py-7" : "h-0"} space-y-4 bg-brandPrimary mt-16 md:hidden`}
+                <div className={`${isMenuOpen ? "block fixed top-0 left-0 right-0 h-auto px-5 py-7" : "hidden"} space-y-4 bg-brandPrimary mt-16 md:hidden`}
                 >
                     {
                         navItems.map(({ title, path }) => {
